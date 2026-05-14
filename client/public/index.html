@@ -6,12 +6,42 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Studio Booking System - Book studios easily"
+      content="Studio Booking System - Discover and book professional studios in Nepal"
     />
-    <title>Studio Booking System</title>
+    <meta property="og:title" content="Studio Booking System" />
+    <meta property="og:description" content="Discover and book professional studios in Nepal" />
+    <meta property="og:type" content="website" />
+    <title>Studio Booking System - Book Your Perfect Studio</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+          'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      #root {
+        min-height: 100vh;
+      }
+      .loading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-size: 1.2rem;
+        color: #333;
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+      <div class="loading">Loading Studio Booking System...</div>
+    </div>
   </body>
 </html>
